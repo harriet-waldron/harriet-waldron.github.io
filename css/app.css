@@ -17,9 +17,10 @@ header, h3 {
     text-align: center;
 }
 
-header, h1 {
+.poem-title {
     color: #007372;
     font-weight: bold;
+    font-size: 300%;
 }
 
 .welcome-greeting {
@@ -35,6 +36,11 @@ nav, ul {
     background-color: #000237;
 }
 
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .kimchi-muffin img {
     display: flex;
@@ -47,7 +53,7 @@ nav, ul {
     border-radius: 7px;
 }
 
-.about-me {
+#about-me {
     display:inline-flex;
 }
 
