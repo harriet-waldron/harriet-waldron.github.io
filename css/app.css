@@ -1,4 +1,28 @@
 body {
-    background-color: blueviolet;
+    background-color: #ffcb9a;
+    color: #501b1d;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: auto;
+
 }
 
+.poem {
+    margin: 1.5em;
+    margin-left: 1.75em;
+    text-align: left;
+}
+
+header, h3 {
+    text-align: center;
+}
+
+header, h1 {
+    color: #2e1114;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
