@@ -23,11 +23,6 @@ header, h3 {
     font-size: 300%;
 }
 
-.welcome-greeting {
-    font-size: 600%;
-    color: #007372;
-}
-
 nav, ul {
     display: flex;
     flex-direction: row;
@@ -57,5 +52,35 @@ li {
     display:inline-flex;
 }
 
+body, html {
+    height: 100%;
+}
 
+/* The hero image */
+.swirl-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Resources/image-from-rawpixel-id-2032533-jpeg.jpg")
+  /* Set a specific height */
+  height: 50%;
 
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.welcome-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.welcome-greeting {
+    font-size: 600%;
+    color: #007372;
+}
