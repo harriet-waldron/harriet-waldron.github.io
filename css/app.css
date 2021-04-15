@@ -3,7 +3,7 @@ body {
     color: #401f00;
     font-size: 1.5em;
     margin: auto;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .poem {
@@ -11,6 +11,7 @@ body {
     margin-left: 1.75em;
     text-align: left;
     font-family:'Courier New', Courier, monospace;
+    background-color: #e9ffff;
 }
 
 header, h3 {
@@ -55,20 +56,11 @@ body, html {
     height: 100%;
 }
 
-#swirl-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Resources/image-from-rawpixel-id-2032533-jpeg.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-}
-
 #welcome-text {
   text-align: center;
   position: absolute;
-  top: 70%;
-  left: 50%;
+  top: 120%;
+  left: 60%;
   right: 50%;
   transform: translate(-50%, -50%);
   color: #c1fffe;
@@ -79,14 +71,18 @@ body, html {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
+    padding: 40px 40px;
+    border-radius: 50%;
+    color: #007372;
+    background-color: #c1fffe;
     text-align: center;
     cursor: pointer;
+    font-size: 25%;
+    position: relative;
+    right: -30px;
   }
   
   #welcome-text button:hover {
-    background-color: #555;
-    color: white;
+    background-color: #007372;
+    color: #c1fffe;
   }
