@@ -1,6 +1,6 @@
 body {
     background-color: #ffcb9a;
-    color: #501b1d;
+    color: #401f00;
     font-size: 1.5em;
     margin: auto;
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -18,22 +18,32 @@ header, h3 {
 }
 
 header, h1 {
-    color: #2e1114;
+    color: #007372;
     font-weight: bold;
 }
 
-nav {
+.welcome-greeting {
+    font-size: 600%;
+    color: #007372;
+}
+
+nav, ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #000237;
 }
+
+
 .kimchi-muffin img {
     display: flex;
     max-width: 40%;
     flex: 1 1 150px;
-    justify-content: left;
+    justify-content: center;
     padding: 10px;
     border-style: solid;
-    border: #2b6cab;
+    border: #000273;
     border-radius: 7px;
 }
 
