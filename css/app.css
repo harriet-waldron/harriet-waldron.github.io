@@ -25,16 +25,15 @@ header, h3 {
 
 nav, ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     cursor: pointer;
     background-color: #000237;
+    position: fixed;
 }
 
 li {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .kimchi-muffin img {
@@ -56,31 +55,38 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
-.swirl-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Resources/image-from-rawpixel-id-2032533-jpeg.jpg")
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
+#swirl-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Resources/image-from-rawpixel-id-2032533-jpeg.jpg");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
 }
 
-/* Place text in the middle of the image */
-.welcome-text {
+#welcome-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
+  right: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #007372;
+  font-size: 500%;
 }
 
-.welcome-greeting {
-    font-size: 600%;
-    color: #007372;
-}
+#welcome-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #welcome-text button:hover {
+    background-color: #555;
+    color: white;
+  }
