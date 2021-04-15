@@ -1,16 +1,16 @@
 body {
     background-color: #ffcb9a;
     color: #501b1d;
-    font-family:'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin: auto;
-
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .poem {
     margin: 1.5em;
     margin-left: 1.75em;
     text-align: left;
+    font-family:'Courier New', Courier, monospace;
 }
 
 header, h3 {
@@ -26,3 +26,18 @@ nav {
     display: flex;
     flex-direction: row;
 }
+.kimchi-muffin img {
+    display: flex;
+    max-width: 40%;
+    flex: 1 1 150px;
+    justify-content: left;
+    padding: 10px;
+    border-style: solid;
+    border: #2b6cab;
+    border-radius: 7px;
+}
+
+.about-me {
+    display:inline-flex;
+}
+
