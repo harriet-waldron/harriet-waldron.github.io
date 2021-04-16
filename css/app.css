@@ -6,29 +6,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-
-.poem {
-    margin: 1.5em;
-    margin-left: 1.75em;
-    text-align: left;
-    font-family:'Courier New', Courier, monospace;
-    background-color: #e9ffff;
-}
-
-header, h3 {
-    text-align: center;
-}
-
-.poem-title {
-    color: #007372;
-    font-weight: bold;
-    font-size: 300%;
-}
-
-
 .banner {
     width: 100%;
     margin-top: 0;
+    padding-top: 0;
     cursor: pointer;
     background-color: #e9ffff;
     position: fixed;
@@ -39,18 +20,18 @@ nav ul {
     list-style: none;
 }
 
-nav li {
+.banner nav li {
     display: inline-block;
     text-align: center;
     margin-left: 70px;
 }
 
-nav a {
+.banner nav a {
     text-decoration: none;
     text-transform: uppercase;
 }
 
-nav a:hover {
+.banner nav a:hover {
     color: #002524;
 }
 
@@ -101,8 +82,6 @@ figcaption {
     text-align: center;
 }
 
-
-
 body, html {
     height: 100%;
     flex-grow: 1;
@@ -142,4 +121,44 @@ body, html {
   #welcome-text button a {
       text-decoration: none;
   }
+  .reflections {
+    margin: 1.5em;
+    margin-left: 1.75em;
+    text-align: center;
+}
 
+header, h3 {
+    text-align: center;
+}
+
+.reflections-title {
+    color: #007372;
+    font-weight: bold;
+    font-size: 300%;
+    padding-top: 80px;
+}
+
+  .reflections button{
+    border: none;
+    display: inline-block;
+    border-radius: 50%;
+    color: #007372;
+    background-color: #c1fffe;
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 300px;
+    font-weight: bold;
+    font-size: .75em;
+  }
+
+  .reflections button:hover {
+    background-color: #007372;
+    color: #c1fffe;
+  }
+  .reflections button a {
+      text-decoration: none;
+  }
+  
+  
