@@ -80,6 +80,7 @@ nav ul {
 figcaption {
     font-size: smaller;
     text-align: center;
+    width: 100%;
 }
 
 body, html {
@@ -164,14 +165,17 @@ header, h3 {
   .positioning-article {
       background-color: #e9ffff;
       color: #002524;
-      border-radius: 10%;
+      border-radius: 5%;
       padding: 40px;
       margin: 60px;
   }
   .position-title {
       padding-top: 80px;
   }
-  .screenshots1 {
-      display: inline-block;
-      max-width: 10%;
+  .screenshots img {
+      max-height: 700px;
+      max-width: 700px;
+  }
+  .screenshots figcaption {
+      text-align: left;
   }
