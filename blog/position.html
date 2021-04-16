@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Positioning</title>
+    <meta charset="UTF-8">
+    <link href="../css/app.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <header>
+     <div class="banner">
+      <nav>
+        <ul>
+          <li> <a href="../index.html"> Back to the void </a> </li>
+          <li> <a href="template.html"> Reflections </a> </li>
+          <li> <a href="about.html"> About Me </a> </li>
+        </ul>
+      </nav>
+     </div>
+    </header>
+   
+    <main>
+      <header>
+        <h1 class="position-title">Positioning elements</h1>
+        <h3>What is the difference between relative, absolute and fixed positioning?</h3>
+      </header>
+      <section class="positioning-article"> <p>
+        Positioning elements so your web page looks how you want it to is a key aspect of design. It sounds like it should 
+        be simple, just tell the elements where to go, right? <br> Well yes.. but it is a little more complicated than that.
+        There are several methods to achieving satisfying element layout in CSS, main ones include the keys display, float and 
+        positioning. The latter is the one we'll focus on today.
+          <br>
+        <h6>So what can this little key do? What are the options?</h6>  
+        Here are the top 4: <br>
+display: static;<br>
+display: relative;<br>
+display: absolute;<br>
+display: fixed;<br>
+<br>
+Static is the default, you don't need to specify this on css as it is assumed, unless
+you wanted to override an inherited rule - where your element has been given orders
+by another ruleset. This display means that all the elements are positioned in the 
+order they appear in your html. <br>
+
+Let me show you. <br>
+First the setup for the html and css: <br>
+<div class="screenshots1">
+<figure>
+  <img src="../Resources/positioning_parent_html1.JPG" alt="Image showing the basic HTML code for a parent container and two 
+  child elements, which are labled as a green circle, and a red circle.">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="../Resources/css_setup.PNG" alt="Image showing the basic CSS code for a yellow parent container, a green circle,
+   and a red circle. They have not been positioned.">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="../Resources/positioning_parent_css.PNG" alt="The visual outcome of basic html and css code, a red and a green circle
+  stacked in the top left corner of a yellow rectangle.">
+  <figcaption></figcaption>
+</figure> 
+</div>
+Relative appears the same at first, because it now positioned relative to it's usual
+place, but the difference is that now you can add additional instructions, telling 
+it to go more to the left, right, top or bottom of its usual place. So back to the 
+rugs, a static rug is in the top left corner of a room, and all the rugs that came
+in after it are below and to the left, staying put. Make those same rugs relative 
+and suddenly they can move, but only if, and where, you tell them to. Relative 
+elements also won't affect the positioning of anything else in the room, but it can can it 
+overlap other rugs. <br>
+<br>
+Absolute elements are positioned in relation to the closest parent element. Parent
+elements refer to the ones that encase the element you're trying to move. In this 
+case a room. The house is still the entire html document. The parent element that 
+an absolute positions itself according to can be either relative or absolute, but 
+if there is no positioned parent, the element you are moving will position itself 
+in relation to the html document. This rug can move throught the entire house if 
+it wants to, and overlap other rugs. Absolute positioning does have an effect on 
+the positioning of other elements, as it has been removed from the flow of the document.
+note, use absolute positioning wisely, it can be a bit of a mess if overused.
+<br>
+
+Absolute and relative positioning work together pretty nicely. If you want 
+to use absolute positioning and don't want potential chaos, house them inside of a 
+relatively positioned parent container. There is still freedom of movement and the
+elements/rugs can overlap others inside the same container/room, but they won't go 
+out of the walls of the container/room.   
+<br>
+Fixed positioning is the final one we will look at. Here the element is also removed
+from the document flow, but it is fixed in place and will still be visible when you
+scroll. This is good for a navigation menu for example. And as for the rugs.. well 
+turns out fixed ones are flying carpets, the kind that want to follow you around 
+wherever you go like a dog that wants a walk.
+</p>>
+</section>
+
+
+<figure>
+  <img src="" alt="">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="" alt="">
+  <figcaption></figcaption>
+</figure>
+
+      
+    </main>
+    
+    <footer>
+        <p>Would you like to <a href="template.html">read more?</a></p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+  </body>
+</html>

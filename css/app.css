@@ -161,4 +161,17 @@ header, h3 {
       text-decoration: none;
   }
   
-  
+  .positioning-article {
+      background-color: #e9ffff;
+      color: #002524;
+      border-radius: 10%;
+      padding: 40px;
+      margin: 60px;
+  }
+  .position-title {
+      padding-top: 80px;
+  }
+  .screenshots1 {
+      display: inline-block;
+      max-width: 10%;
+  }
