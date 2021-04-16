@@ -1,10 +1,11 @@
 body {
-    background-color: #c1fffe;
-    color: #002524;
+    background-color: #003838;
+    color: #c1fffe;
     font-size: 1.5em;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
 
 .poem {
     margin: 1.5em;
@@ -27,7 +28,7 @@ header, h3 {
 
 .banner {
     width: 100%;
-    margin: auto;
+    margin-top: 0;
     cursor: pointer;
     background-color: #e9ffff;
     position: fixed;
@@ -53,20 +54,54 @@ nav a:hover {
     color: #002524;
 }
 
+.about-me {
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.about-me div {
+    position:absolute;
+}
+
+.self {
+    background-color: #e9ffff;
+    color: #002524;
+    max-width: 40%;
+    float: right;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 120px;
+    height: 500px;
+    padding-left: 5px;
+    border-style: solid;
+    border-color: #002524;
+    border-radius: 10%;
+    padding: 10px;
+}
+
 .kimchi-muffin img {
     display: flex;
     max-width: 40%;
+    height: 500px;
     flex: 1 1 150px;
     justify-content: center;
-    padding: 10px;
-    border-style: solid;
-    border: #002524;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 7px;
     border-radius: 75%;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
-#about-me {
-    display: flex;
+figcaption {
+    font-size: smaller;
+    text-align: center;
 }
+
+
 
 body, html {
     height: 100%;
@@ -83,8 +118,6 @@ body, html {
   transform: translate(-50%, -50%);
   color: #c1fffe;
   font-size: 500%;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 #welcome-text button {
@@ -110,6 +143,3 @@ body, html {
       text-decoration: none;
   }
 
-  .copyright {
-      color: #c1fffe;
-  }
