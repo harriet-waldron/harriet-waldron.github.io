@@ -162,14 +162,14 @@ header, h3 {
       text-decoration: none;
   }
   
-  .positioning-article {
+  .post-article {
       background-color: #e9ffff;
       color: #002524;
       border-radius: 5%;
       padding: 40px;
       margin: 60px;
   }
-  .position-title {
+  .post-title {
       padding-top: 80px;
   }
   .screenshots img {
