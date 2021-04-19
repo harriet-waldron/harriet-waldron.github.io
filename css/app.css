@@ -126,6 +126,11 @@ body, html {
     margin: 1.5em;
     margin-left: 1.75em;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 header, h3 {
@@ -141,13 +146,11 @@ header, h3 {
 
   .reflections button{
     border: none;
-    display: inline-block;
     border-radius: 50%;
     color: #007372;
     background-color: #c1fffe;
     text-align: center;
     cursor: pointer;
-    justify-content: space-evenly;
     height: 300px;
     width: 300px;
     font-weight: bold;
