@@ -52,9 +52,7 @@ nav ul {
     max-width: 40%;
     float: right;
     margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 120px;
-    height: 500px;
+    margin-right: 60px;
     padding-left: 5px;
     border-style: solid;
     border-color: #002524;
@@ -65,12 +63,11 @@ nav ul {
 .kimchi-muffin img {
     display: flex;
     max-width: 40%;
-    height: 500px;
     flex: 1 1 150px;
     justify-content: center;
     text-align: center;
-    padding: 40px;
-    padding-bottom: 7px;
+    padding-top: 10%;
+    padding-bottom: 2%;
     border-radius: 75%;
     margin-left: 50px;
     margin-right: 20px;
@@ -147,9 +144,7 @@ header, h3 {
   .reflections button{
     border: none;
     border-radius: 50%;
-    color: #007372;
     background-color: #c1fffe;
-    text-align: center;
     cursor: pointer;
     height: 300px;
     width: 300px;
