@@ -22,10 +22,102 @@
    
     <main>
       <header>
-        <h1 class="post-title"></h1>
-        <h3></h3>
+        <h1 class="post-title">JavaScript Basics</h1>
+        <h3> and understanding the Document Object Model</h3>
       </header>
       <section class="post-article"> <p>
+          Welcome to my technical blog post for sprint three, foundations. <br> In this article, I'll attempt to: 
+          <ul>
+          <li>Use an analogy to describe the differences between HTML, JavaScript and CSS</li>
+          <br>
+          <li>Explain control flow and loops using an example process from everyday life</li>
+          <br>
+          <li>Describe what the DOM is and an example of how you might interact with it</li>
+          <br>
+          <li>Explain what functions are and why they are useful</li>
+          <br>
+          <li>Explain the difference between accessing data from arrays and objects</li>
+        </ul>
+          <h4> Let's begin! </h4><br>
+
+        <h4>HTML, JavaScript and CSS</h4>
+        I like to think of HTML, JS and CSS as enthusiastic builders. They all fill different roles, and rely on each other 
+        to get the house feeling strong, looking beautiful and enjoyable to be inside. When they're feeling on form, they work 
+        super well together. <br>  
+        HTML is a no nonsense, reliable type. They like to lay foundations that won't shake, and are interested in the bones 
+        of the structure. There are certain things that HTML will decide, like the names of the rooms, and the content 
+        inside them. As long as all the pieces are there, the foundations are laid, and all the doors connect to other rooms, 
+        HTML is happy. <br>
+        Next they look to CSS. CSS is a designer, they like to decide where the rooms will go, and what layout the house has. 
+        As they have heaps of energy and want the house to look beautiful, they also decide everything from paint color to curtains. 
+        HTML and CSS work well with each other and are happy to listen to each other's needs (they know that when they 
+        don't, the house become chaotic really quickly). <br>
+        Next JavaScript comes in. JS likes to design houses that are functional, and can get really creative and high 
+        tech with it. Do you want the curtains to open 5 minutes ater your alarm goes off? Do you want your room to change color 
+        every time you step on a certain rug? Would you like the fridge to randomly decide for you what you're eating today? 
+        JavaScript is the the builder for you. They make a house functional and interactive in whichever way you like, from 
+        important tasks and alerts (like a fire alarm) to a more gamified experience. <br>
+
+        <h4>Control flow and loops</h4>
+        Controlling the flow of a document means getting to decide the order in which your code runs. Normally a document 
+        would run from top to bottom, but along the way there may be certain information that is needed to continue on. If 
+        the input requirements aren't met, you wouldn't want the code to continue as nothing happened, and so you need to 
+        redirect the flow of the document. Think of it like a busy bank with a queue control manager. To get to any of the 
+        tellers you need to get through the manager. You tell them what you need and based off this information they direct 
+        you to a certain queue. If you just walked on by this person, you'd both have a difficult time. <br>
+        Loops are one way of controlling the flow of a document. They are statements that will continue so long as a condition 
+        is true. An easy example is brushing your hair. Once started, you will continue to brush your hair so long as there 
+        are still knots. As soon as there are no longer knots, you will stop brushing your hair. A loop is a good way to perform 
+        large repetitive tasks, or cycling through data to find information that matches a condition. <br>
+        
+        <h4>Interacting with the DOM</h4>
+        The DOM, or the Document Object Model, represents your entire project, starting with the window and branching down 
+        to the smallest elements. It looks similar to a geneology chart, and uses terms like parent and child to describe 
+        relationships between elements. Parent elements directly encase the child elements, html would be the parent of 
+        head and body, the child of ul (unordered list) would be li, and so on. Window would be the greatest ancestor, a child 
+        of which is document. <br> 
+        It is through the DOM and the .document key that JavaScript can access the elements it wants to manipulate in HTML 
+     and CSS. 
+            <!-- For example, If I wanted to change the color of a button everytime it was clicked, I would need to access the 
+        button's HTML id selector using <strong> document.getElementById('button')</strong>. <br> Once I have access to the button, I then append an 
+        event listener, which would look for a certain action to know when to run. Looking out for a click or a key pressed on 
+        the keyboard would be a common example. My code now looks like this; <br>
+        <strong> document.getElementById('button').addEventListener('click')</strong>. <br> So I have access to the button, and the event listener 
+        is making sure that it pays attention when a user clicks this button. But now we need to make sure something happens 
+        when the button is clicked. I'm going to add a function called makePretty, and then expand more on this example and how the function 
+        works in the section below. <br>
+        <strong> document.getElementById('button1').addEventListener('click', makePretty);</strong> <br>
+        This line of code is using the DOM to allow me access to my html button element, through it's id 'button1'. The event 
+        listener then waits for a user to 'click' this element, and on doing so executes the function makePretty. <br>  -->
+
+        <h4>Functions</h4>
+        Functions are reusable blocks of code that allow you to create functionality. They are what make things happen 
+        essentially. Functions allow for parameters, which means you can feed them information, and when the information 
+        is supplied it is known as an argument. For example, if I wanted to have a simple function that would add two numbers 
+        together, it would look like this; <br> <strong>
+        function add(a, b) {<br>
+        console.log(a + b); <br>
+        } <br>
+        add(2, 6); <br> </strong>
+        8 would be logged to the console. Here a and b are the parameters, which indicate that two pieces of information are 
+        expected. When I call the function at the end, 2 and 6 represent a and b. The data given at the end (2, 6), are known 
+        as arguments. Functions can also be used to supply information in this way. <br>
+        <!-- Lets go back to the button colour change example from before, I'll write it out then explain what its doing. <br><br>
+        <strong> function colorChange() { <br>
+            return Math.floor(Math.random() * 256); <br>
+          } <br>
+          <br>
+          function makePretty(event){ <br>
+            let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')'; <br>
+            event.target.style.backgroundColor = randomColor; <br>
+          } <br>
+          <br>
+          document.getElementById('button1').addEventListener('click', makePretty); <br>
+        </strong> -->
+<div><button id="colorButton">Click me!</button></div>
+        <h4>Accessing Arrays vs Objects</h4>
+  
+          
     </p>
 <h4>Thank you for taking the time to read this post</h4>
 </section>
