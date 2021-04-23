@@ -177,3 +177,11 @@ header, h3 {
   .screenshots figcaption {
       text-align: left;
   }
+
+  #colorButton {
+      position: absolute;
+      min-width: 200px;
+      min-height: 200px;
+      background-color: red;
+      border-radius: 50%;
+  }
