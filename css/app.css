@@ -179,9 +179,11 @@ header, h3 {
   }
 
   #colorButton {
-      position: absolute;
+      position: relative;
+      float: right;
       min-width: 200px;
       min-height: 200px;
-      background-color: red;
+      background-color:palevioletred;
       border-radius: 50%;
+      font-size: 1em;
   }
