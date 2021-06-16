@@ -61,8 +61,8 @@ nav ul {
 }
 
 .kimchi-muffin img {
-    display: flex;
-    max-width: 40%;
+    display: inline-block;
+    max-width: 30%;
     flex: 1 1 150px;
     justify-content: center;
     text-align: center;
@@ -88,10 +88,10 @@ body, html {
 
 #welcome-text {
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 120%;
-  left: 60%;
-  right: 50%;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   color: #c1fffe;
   font-size: 500%;
