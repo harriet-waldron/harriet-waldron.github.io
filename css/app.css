@@ -86,7 +86,7 @@ body, html {
   flex-shrink: 1;
 }
 
-#welcome-text {
+h1 {
   text-align: center;
   position: relative;
   top: 120%;
