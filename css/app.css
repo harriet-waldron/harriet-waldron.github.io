@@ -60,7 +60,7 @@ nav ul {
     padding: 10px;
 }
 
-.kimchi-muffin img {
+/* .kimchi-muffin img {
     display: inline-block;
     max-width: 20%;
     flex: 1 1 150px;
@@ -78,7 +78,7 @@ figcaption {
     font-size: smaller;
     text-align: center;
     width: 100%;
-}
+} */
 
 body, html {
     height: 100%;
@@ -86,15 +86,15 @@ body, html {
   flex-shrink: 1;
 }
 
-h1 {
+#welcome-text {
   text-align: center;
   position: relative;
-  top: 120%;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
   transform: translate(-50%, -50%);
   color: #c1fffe;
-  font-size: 500%;
+  font-size: 3em;
 }
 
 #welcome-text button {
