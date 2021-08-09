@@ -98,15 +98,12 @@ body, html {
 
 #welcome-text button {
     border: none;
-    outline: 0;
-    display: inline-block;
     padding: 40px 40px;
     border-radius: 50%;
     color: #007372;
     background-color: #c1fffe;
     text-align: center;
     cursor: pointer;
-    font-size: 25%;
     font-weight: bold;
     position: relative;
   }
