@@ -4,7 +4,7 @@ import React from 'react'
 function About () {
  
   return (
-      <div class="self" >
+      <div className="self" >
         <h4>Hi, you have successfully exited the void.</h4>
         <h6>(Don't worry, you can go back anytime)</h6>
         <p> 

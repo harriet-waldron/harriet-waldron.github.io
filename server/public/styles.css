@@ -1,0 +1,193 @@
+body {
+  background-color: #003838;
+  color: #c1fffe;
+  font-size: 1.5em;
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navigation {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  cursor: pointer;
+  background-color: #e9ffff;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation nav li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.navigation nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation nav a:hover {
+  color: #002524;
+}
+
+.about-me {
+  display: inline-block;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+}
+
+.about-me div {
+  position: absolute;
+}
+
+.self {
+  background-color: #e9ffff;
+  color: #002524;
+  max-width: 40%;
+  float: right;
+  margin-top: 60px;
+  margin-right: 60px;
+  padding-left: 5px;
+  border-style: solid;
+  border-color: #002524;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+/* .kimchi-muffin img {
+  display: inline-block;
+  max-width: 20%;
+  flex: 1 1 150px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  border-radius: 75%;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+figcaption {
+  font-size: smaller;
+  text-align: center;
+  width: 100%;
+} */
+body, html {
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#welcome-text {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c1fffe;
+  font-size: 3em;
+}
+
+#welcome-text button {
+  border: none;
+  padding: 40px 40px;
+  border-radius: 50%;
+  color: #007372;
+  background-color: #c1fffe;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+#welcome-text button:hover {
+  background-color: #007372;
+  color: #c1fffe;
+}
+
+#welcome-text button a {
+  text-decoration: none;
+}
+
+.reflections {
+  margin: 1.5em;
+  margin-left: 1.75em;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+header, h3 {
+  text-align: center;
+}
+
+.reflections-title {
+  color: #007372;
+  font-weight: bold;
+  font-size: 300%;
+  padding-top: 80px;
+}
+
+.reflections button {
+  border: none;
+  border-radius: 50%;
+  background-color: #c1fffe;
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+.reflections button:hover {
+  background-color: #007372;
+  color: #c1fffe;
+}
+
+.reflections button a {
+  text-decoration: none;
+}
+
+.post-article {
+  background-color: #e9ffff;
+  color: #002524;
+  border-radius: 5%;
+  padding: 40px;
+  margin: 60px;
+}
+
+.post-title {
+  padding-top: 80px;
+}
+
+.screenshots img {
+  max-height: 700px;
+  max-width: 700px;
+}
+
+.screenshots figcaption {
+  text-align: left;
+}
+
+#colorButton {
+  position: relative;
+  float: right;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: palevioletred;
+  border-radius: 50%;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=styles.css.map*/
