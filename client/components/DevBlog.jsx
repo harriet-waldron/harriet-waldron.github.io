@@ -1,20 +1,20 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function DevBlog () {
 
     return (
         <>
-        <div className="reflections">
-            <div className="post"><a href="position.html">Learn: What are the differences between relative, absolute, and fixed positioning?</a></div>
-            <div className="post"><a href="identity.html">Who am I? An exploration of identity.</a></div>
-            <div className="post"><a href="learning.html">Dev Academy: Learning plan.</a></div>
-            <div className="post"><a href="emotional-intelligence.html">Emotional Intelligence; what does it feel like?</a></div>
-            <div className="post"><a href="javascript-dom.html">Javascript and the DOM; basic functionality.</a> </div>
-            <div className="post"><a href="neuroplasticity.html">Neuroplasticity; the difference between Fixed and Growth mindsets.</a></div>
-            <div className="post"><a href="problem-solve.html">Problem solving: What to do when things feel stuck.</a></div> 
-            <div className="post"><a href="foundations-reflections.html">Foundations: Reflecting on the learning journey.</a></div>
+        <div >
+            <div className='text-block'><Link to="positioning">Learn: What are the differences between relative, absolute, and fixed positioning?</Link></div>
+            <div className='text-block'><Link to="identity">Who am I? An exploration of identity.</Link></div>
+            <div className='text-block'><Link to="learning">Dev Academy: Learning plan.</Link></div>
+            <div className='text-block'><Link to="eq">Emotional Intelligence; what does it feel like?</Link></div>
+            <div className='text-block'><Link to="dom">Javascript and the DOM; basic functionality.</Link> </div>
+            <div className='text-block'><Link to="neuroplastic">Neuroplasticity; the difference between Fixed and Growth mindsets.</Link></div>
+            <div className='text-block'><Link to="solve">Problem solving: What to do when things feel stuck.</Link></div> 
+            <div className='text-block'><Link to="reflections">Foundations: Reflecting on the learning journey.</Link></div>
         </div> 
         </>
     )

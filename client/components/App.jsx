@@ -10,6 +10,15 @@ import Art from './Art'
 import Games from './Games'
 import DevBlog from './DevBlog'
 
+import BlogPos from '../../blog/BlogPos'
+import BlogID from '../../blog/BlogID'
+import BlogLearn from '../../blog/BlogLearn'
+import BlogEQ from '../../blog/BlogEQ'
+import BlogDOM from '../../blog/BlogDOM'
+import BlogNeuro from '../../blog/BlogNeuro'
+import BlogSolve from '../../blog/BlogSolve'
+import BlogRefl from '../../blog/BlogRefl'
+
 function App () {
   return (
     <>
@@ -21,6 +30,16 @@ function App () {
         <Route exact path='/games' component={Games} />
         <Route exact path='/software' component={SoftwareDev} />
         <Route exact path='/blog' component={DevBlog} />
+
+        <Route exact path='/positioning' component={BlogPos} />
+        <Route exact path='/identity' component={BlogID} />
+        <Route exact path='/learning' component={BlogLearn} />
+        <Route exact path='/eq' component={BlogEQ} />
+        <Route exact path='/dom' component={BlogDOM} />
+        <Route exact path='/neuroplastic' component={BlogNeuro} />
+        <Route exact path='/solve' component={BlogSolve} />
+        <Route exact path='/reflections' component={BlogRefl} />
+
       </div>
     </>
   )

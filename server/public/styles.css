@@ -7,58 +7,31 @@ body {
 }
 
 .navigation {
-  width: 100%;
-  margin-top: 0;
-  padding-top: 0;
   cursor: pointer;
   background-color: #e9ffff;
-  position: fixed;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.navigation nav li {
-  display: inline-block;
-  text-align: center;
-  margin-left: 70px;
-}
-
-.navigation nav a {
+.navigation a {
   text-decoration: none;
-  text-transform: uppercase;
-}
-
-.navigation nav a:hover {
-  color: #002524;
 }
 
 .about-me {
-  display: inline-block;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
-  position: relative;
 }
 
-.about-me div {
-  position: absolute;
-}
-
-.self {
+.text-block {
   background-color: #e9ffff;
   color: #002524;
-  max-width: 40%;
-  float: right;
-  margin-top: 60px;
-  margin-right: 60px;
-  padding-left: 5px;
+  margin-top: 20px;
   border-style: solid;
   border-color: #002524;
-  border-radius: 10%;
-  padding: 10px;
+  border-radius: 2%;
+  padding: 5px;
+  text-align: center;
 }
 
 /* .kimchi-muffin img {
@@ -80,44 +53,7 @@ figcaption {
   text-align: center;
   width: 100%;
 } */
-body, html {
-  height: 100%;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-#welcome-text {
-  text-align: center;
-  position: relative;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #c1fffe;
-  font-size: 3em;
-}
-
-#welcome-text button {
-  border: none;
-  padding: 40px 40px;
-  border-radius: 50%;
-  color: #007372;
-  background-color: #c1fffe;
-  text-align: center;
-  cursor: pointer;
-  font-weight: bold;
-  position: relative;
-}
-
-#welcome-text button:hover {
-  background-color: #007372;
-  color: #c1fffe;
-}
-
-#welcome-text button a {
-  text-decoration: none;
-}
-
-.reflections {
+.post {
   margin: 1.5em;
   margin-left: 1.75em;
   text-align: center;
@@ -139,7 +75,7 @@ header, h3 {
   padding-top: 80px;
 }
 
-.reflections button {
+.post {
   border: none;
   border-radius: 50%;
   background-color: #c1fffe;
@@ -150,12 +86,12 @@ header, h3 {
   font-size: 0.75em;
 }
 
-.reflections button:hover {
+.post a:hover {
   background-color: #007372;
   color: #c1fffe;
 }
 
-.reflections button a {
+.post a {
   text-decoration: none;
 }
 
