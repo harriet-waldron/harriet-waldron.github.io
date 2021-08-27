@@ -1,4 +1,4 @@
-# harriet-waldron.github.io
+# harriet-waldron.github.io //Under construction
 
 This is a blog I created for Enspiral Dev Academy, in the first few weeks of the course. 
 
