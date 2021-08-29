@@ -8,9 +8,29 @@ function Home () {
  
   return (
     <>
-      <h1>Hi</h1>
+    <div id='testBackground' style={{ 
+  backgroundImage: `url(${'/image.png'})`
+}}>
+    <div className='spacer'>
+      </div> 
+      
+      <div className='home_header'>
+        <h1>Blog Under Construction</h1>
+      </div> 
+      <div className='spacer'>
+      </div>  
+
       <About />
+
+      <div className='spacer'>
+      </div> 
+
       <Contact />
+
+      <div className='spacer'>
+      </div> 
+    
+    </div> 
     </>
   )
 }

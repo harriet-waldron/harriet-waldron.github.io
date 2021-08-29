@@ -4,15 +4,16 @@ import React from 'react'
 function About () {
  
   return (
-      <div className='text-block' >
-        <h4>Hi, you have successfully exited the void.</h4>
-        <h6>(Don't worry, you can go back anytime)</h6>
-        <p> 
-          ..But good job on making it this far! We're all making sense of the chaos in our own time. <br></br> Here 
-            you will find a selection of things written by myself, Harriet, as I attempt to understand web 
-            development. <br></br> When I am not learning to speak to computers, I enjoy meditating in stone 
-            circles, climbing tall rocks, spinning fire, and hanging out with trees.
-        </p>
+      <div className='text-block__flex' >
+        <div className='side-block_small' >
+        {/* my images aren't working, may need api call -- returns GET 404 error */}
+        <img src="http://lorempixel.com/400/200/" />
+        </div>
+        <div className='side-block_large' >
+          <p> 
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
       </div>
   )
 }

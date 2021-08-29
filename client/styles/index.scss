@@ -1,9 +1,17 @@
 body {
-  background-color: #003838;
+  background-color: #03835c;
   color: #c1fffe;
-  font-size: 1.5em;
+  font-size: 24px;
   margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navigation {
@@ -13,100 +21,43 @@ body {
   justify-content: space-around;
 }
 
-.navigation a {
-  text-decoration: none;
-  // text-transform: uppercase;
-}
-
-.about-me {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+.spacer {
+  height: 200px;
+  width: 100%;
+  // background-color: complement($color: #03835c);
+  background-color: transparent;
 }
 
 .text-block {
-  background-color: #e9ffff;
-  color: #002524;
-  margin-top: 20px;
-  border-style: solid;
-  border-color: #002524;
-  border-radius: 2%;
-  padding: 5px;
-  text-align: center;
+  //background-color: #e9ffffa6;
+  color: #001a19;
+  border: solid 2px #003635e0;
+  padding: 30px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(
+  180deg
+  ,rgba(255,255,255,.48) 0%,rgba(255,255,255,0) 23%);
+  background-color: transparent;
+  // z-index: 100;
+  filter: alpha(opacity=0);
+  transition: opacity .5s ease-in-out;
 }
 
-/* .kimchi-muffin img {
-  display: inline-block;
-  max-width: 20%;
-  flex: 1 1 150px;
-  justify-content: center;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 2%;
-  border-radius: 75%;
-  margin-left: 50px;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
-figcaption {
-  font-size: smaller;
-  text-align: center;
-  width: 100%;
-} */
-
-
-.post {
-  margin: 1.5em;
-  margin-left: 1.75em;
-  text-align: center;
+.text-block__flex {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-grow: 1;
+  align-items: center;
 }
 
-header, h3 {
-  text-align: center;
+.side-block_small {
+  padding: 2.5%;
+  width: 30%;
 }
 
-.reflections-title {
-  color: #007372;
-  font-weight: bold;
-  font-size: 300%;
-  padding-top: 80px;
+.side-block_large {
+  padding: 5%;
+  width: 60%;
 }
 
-.post {
-  border: none;
-  border-radius: 50%;
-  background-color: #c1fffe;
-  cursor: pointer;
-  height: 300px;
-  width: 300px;
-  font-weight: bold;
-  font-size: .75em;
-}
-
-.post a:hover {
-  background-color: #007372;
-  color: #c1fffe;
-}
-.post a {
-    text-decoration: none;
-}
-
-.post-article {
-    background-color: #e9ffff;
-    color: #002524;
-    border-radius: 5%;
-    padding: 40px;
-    margin: 60px;
-}
-.post-title {
-    padding-top: 80px;
-}
 .screenshots img {
     max-height: 700px;
     max-width: 700px;
@@ -122,5 +73,36 @@ header, h3 {
     min-height: 200px;
     background-color:palevioletred;
     border-radius: 50%;
-    font-size: 1em;
 }
+
+
+#testBackground{
+	height: 100%;
+  width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+  //background: url('/harriet-waldron/Code/Foundations/dev-academy/harriet-waldron.github.io/harriet-waldron.github.io/server/public/128874840_1388853981474809_7692889570422402461_o.jpg');
+}
+
+// .feature-slide-overlay {
+//   height: 101%;
+//   position: absolute;
+//   z-index: 100;
+//   width: 100%;
+//   opacity: 0;
+//   -moz-opacity: 0;
+//   filter: alpha(opacity=0);
+//   background-color: #fff;
+//   transition: opacity .5s ease-in-out;
+//   top: 50%;
+//   transform: translate(0,-50%);
+// }
+
+// #header-area.header-overlay .feature-area-main .feature-slide-overlay {
+//   background-image: linear-gradient(
+// 180deg
+// ,rgba(255,255,255,.48) 0%,rgba(255,255,255,0) 23%);
+//   opacity: 1;
+//   background-color: transparent;
+// }
