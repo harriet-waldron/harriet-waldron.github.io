@@ -34,11 +34,11 @@ function BlogPos () {
             <h4>Let me show you.</h4> <br></br>
             First the setup for the html and css: <br></br>
             <div class="screenshots">
-              <img src="../Resources/positioning_parent_html1.JPG" alt="Image showing the basic HTML code for a parent container and two 
+              <img src="/images/positioning_parent_html1.JPG" alt="Image showing the basic HTML code for a parent container and two 
               child elements, which are labled as a green circle, and a red circle."></img>
               <p><em>fig.1</em> HTML setup</p>
             
-              <img src="../Resources/setup_outcome.PNG" ></img>
+              <img src="/images/setup_outcome.PNG" ></img>
               <p><em>fig.2</em> CSS set up and outcome. Though the display key has not been written, static positioning is implied.</p>
               
             </div>
@@ -54,12 +54,12 @@ function BlogPos () {
             <br></br>
             <div class="screenshots">
 
-            <img src="../Resources/static_position_relative_box.PNG" alt=""></img>
+            <img src="/images/static_position_relative_box.PNG" alt=""></img>
             <p><em>fig.3</em> As you can see, the container has moved, but both static and relative elements remained in the same position 
               within the parent.</p>
           
   
-            <img src="../Resources/relative_moved.PNG" alt=""></img>
+            <img src="/images/relative_moved.PNG" alt=""></img>
             <p><em>fig.4</em> Once you apply offset instructions, you can see how the relative positioning takes effect.</p>
           
             </div>
@@ -76,12 +76,12 @@ function BlogPos () {
             <br></br>
             <div class="screenshots">
 
-                <img src="../Resources/position_ absolute_over.PNG" alt=""></img>
+                <img src="/images/position_ absolute_over.PNG" alt=""></img>
                 <p><em>fig.5</em> The green circle element has been removed from the document flow, 
                 so the red circle element can no longer 'see' it and has taken its place.</p>
               
             
-                <img src="../Resources/position_ absolute_over2.PNG" alt=""></img>
+                <img src="/images/position_ absolute_over2.PNG" alt=""></img>
                 <p><em>fig.6</em> It hasn't disappeared though, moving it to the left by 75px reveals the green circle element, 
                     while the red circle stays in place.</p>
                 
@@ -96,7 +96,7 @@ function BlogPos () {
             <br></br>
             <div class="screenshots">
 
-                <img src="../Resources/absolute_static.PNG" alt=""></img>
+                <img src="/images/absolute_static.PNG" alt=""></img>
                 <p><em>fig.7</em> Here the green circle is positioned absolutely, the red is positioned relatively, 
                   and the parent container is static.</p>
             </div>  

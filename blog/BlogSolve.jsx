@@ -61,7 +61,7 @@ function BlogSolve () {
              there, I could see how it all fit together and made sense. If no help is available in a future problem, I will 
              aim to give myself breaks and not try slog away at a problem until it is done or until my brain melts. <br></br>
              Here is the outcome of my code: <br></br><br></br>
-             <img src="../Resources/problemsolvearray.PNG" alt=""></img>
+             <img src="/images/problemsolvearray.PNG" alt=""></img>
              <br></br><br></br>
              Next I will tell you about <strong>a time I solved a problem in an elegant way.</strong> <br></br>
              This problem was one I encountered while writing a technical blog on manipulating the DOM. To create an example
@@ -79,7 +79,7 @@ function BlogSolve () {
              things, and I was able to access a pool of knowledge in real time, in relation to my specific problem. <br></br>
              Here is the final outcome: <br></br>
              <br></br>
-             <img src="../Resources/problemsolveelegant.PNG" alt=""></img>
+             <img src="/images/problemsolveelegant.PNG" alt=""></img>
 
              <h4>Conclusion on the writing process.</h4>
              Initially I felt really uncomfortable recording my ramblings in a public space, but it got easier as I talked on. 

@@ -91,7 +91,7 @@ function BlogDOM () {
           as arguments. Functions can also be given as arguments for other functions to work. <br></br>
           Lets go back to the button colour change example from before, I'll write it out then explain what its doing. <br></br><br></br>
           
-          <img src="../Resources/colorchange.PNG" alt="Shows the code to create a random color change button."></img>
+          <img src="/images/colorchange.PNG" alt="Shows the code to create a random color change button."></img>
           <div><button id="colorButton">Click me!</button></div>
           
           First of all I gained access to the button by its id, and saved it to the variable change. <br></br>
