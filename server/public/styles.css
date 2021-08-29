@@ -1,5 +1,5 @@
 body {
-  background-color: #03835c;
+  background-color: #c1fffe;
   color: #c1fffe;
   font-size: 24px;
   margin: auto;
@@ -19,6 +19,13 @@ h1, h3 {
   background-color: #e9ffff;
   display: flex;
   justify-content: space-around;
+}
+
+.home-header {
+  color: #042501;
+  position: relative;
+  font-size: 2rem;
+  top: -120px;
 }
 
 .spacer {
@@ -41,16 +48,26 @@ h1, h3 {
 .text-block__flex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #042501;
 }
 
 .side-block_small {
   padding: 2.5%;
   width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .side-block_large {
   padding: 5%;
   width: 60%;
+}
+
+.profile-img {
+  max-height: 200px;
+  width: auto;
 }
 
 .screenshots img {
@@ -74,7 +91,7 @@ h1, h3 {
 #testBackground {
   height: 100%;
   width: 100%;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
 }

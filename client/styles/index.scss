@@ -1,5 +1,5 @@
 body {
-  background-color: #03835c;
+  background-color: #c1fffe;
   color: #c1fffe;
   font-size: 24px;
   margin: auto;
@@ -14,11 +14,22 @@ h1, h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+// .footer {
+//   background-color: #e09d3d;
+// }
+
 .navigation {
   cursor: pointer;
   background-color: #e9ffff;
   display: flex;
   justify-content: space-around;
+}
+
+.home-header {
+  color: #042501;
+  position: relative;
+  font-size: 2rem;
+  top: -120px;
 }
 
 .spacer {
@@ -46,16 +57,26 @@ h1, h3 {
 .text-block__flex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #042501;
 }
 
 .side-block_small {
   padding: 2.5%;
   width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .side-block_large {
   padding: 5%;
   width: 60%;
+}
+
+.profile-img {
+  max-height: 200px;
+  width: auto;
 }
 
 .screenshots img {
@@ -79,7 +100,7 @@ h1, h3 {
 #testBackground{
 	height: 100%;
   width: 100%;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	position: relative;
   //background: url('/harriet-waldron/Code/Foundations/dev-academy/harriet-waldron.github.io/harriet-waldron.github.io/server/public/128874840_1388853981474809_7692889570422402461_o.jpg');

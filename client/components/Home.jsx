@@ -14,7 +14,7 @@ function Home () {
     <div className='spacer'>
       </div> 
       
-      <div className='home_header'>
+      <div className='home-header'>
         <h1>Blog Under Construction</h1>
       </div> 
       <div className='spacer'>
@@ -27,8 +27,6 @@ function Home () {
 
       <Contact />
 
-      <div className='spacer'>
-      </div> 
     
     </div> 
     </>
