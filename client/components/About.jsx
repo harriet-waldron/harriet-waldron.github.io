@@ -7,7 +7,7 @@ function About () {
       <div className='text-block__flex' >
         <div className='side-block_small' >
         
-        <img src="/images/kimchi.png" className='profile-img'/>
+        <img src="/images/profilepic.png" className='profile-img'/>
         </div>
         <div className='side-block_large' >
           <p> 

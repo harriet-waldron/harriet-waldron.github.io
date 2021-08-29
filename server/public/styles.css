@@ -76,12 +76,12 @@ h1, h3 {
 }
 
 .profile-img {
-  max-height: 200px;
+  max-height: 300px;
   width: auto;
 }
 
 .project-img {
-  max-height: 500px;
+  max-height: 400px;
   width: auto;
 }
 

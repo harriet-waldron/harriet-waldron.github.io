@@ -591,7 +591,7 @@ function About() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "side-block_small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "/images/kimchi.png",
+    src: "/images/profilepic.png",
     className: "profile-img"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "side-block_large"
@@ -755,6 +755,122 @@ function Nav() {
     className: "text-block__flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "/projects/creaturesketch.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/retrosketch.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/retroshirt.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/retroshirt.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/retrosticker.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/startscreen.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sunlevel.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/dragonlevel.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/eyelevel.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/endscreen.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Bean2Pot.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Bean2Ball.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Bean2Leaf.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/JumpBean.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/RunBeanLeft.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/RunBeanRight.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Pot2Leaf.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Leaf2Ball.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/Ball2Pot.png",
+    className: "project-img"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/menufront.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/menuback.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sprayclose.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sprayfar.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/mothspray.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/poemart.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/poemart1.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/poemartsketch.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/threeartsketch.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sketch.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sketch2.PNG",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/handsketch.png",
+    className: "project-img"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-block__flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/sunmoontree.png",
+    className: "project-img"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "/projects/suntreeschedule.png",
     className: "project-img"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "spacer"

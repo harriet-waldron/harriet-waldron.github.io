@@ -39,10 +39,73 @@ function Nav () {
     <div className='spacer-small'>
     </div> 
 
-      <div className='text-block__flex'>
+    <div className='text-block__flex'>
         <img src="/projects/creaturesketch.png" className='project-img' />
       </div>
 
+      <div className='text-block__flex'>
+        <img src="/projects/retrosketch.png" className='project-img' />
+        <img src="/projects/retroshirt.png" className='project-img' />
+        <img src="/projects/retropeople.PNG" className='project-img' />
+        <img src="/projects/retrosticker.PNG" className='project-img' />
+
+    <div className='text-block__flex'>
+      <img src="/projects/startscreen.png" className='project-img' />
+      <img src="/projects/sunlevel.png" className='project-img' />
+      <img src="/projects/dragonlevel.PNG" className='project-img' />
+      <img src="/projects/eyelevel.PNG" className='project-img' />
+      <img src="/projects/endscreen.png" className='project-img' />
+    </div>
+
+    <div className='text-block__flex'>
+      <img src="/projects/Bean2Pot.png" className='project-img' />
+      <img src="/projects/Bean2Ball.png" className='project-img' />
+      <img src="/projects/Bean2Leaf.png" className='project-img' />
+    </div>
+
+    <div className='text-block__flex'>
+      <img src="/projects/JumpBean.png" className='project-img' />
+      <img src="/projects/RunBeanLeft.png" className='project-img' />
+      <img src="/projects/RunBeanRight.png" className='project-img' />
+    </div>
+
+    <div className='text-block__flex'>
+      <img src="/projects/Pot2Leaf.png" className='project-img' />
+      <img src="/projects/Leaf2Ball.png" className='project-img' />
+      <img src="/projects/Ball2Pot.png" className='project-img' />
+    </div>
+      </div>
+      <div className='text-block__flex'>
+      <img src="/projects/menufront.png" className='project-img' />
+        <img src="/projects/menuback.png" className='project-img' />
+      </div>
+
+      <div className='text-block__flex'>
+        <img src="/projects/sprayclose.png" className='project-img' />
+        <img src="/projects/sprayfar.png" className='project-img' />
+        <img src="/projects/mothspray.png" className='project-img' />
+      </div>
+
+      <div className='text-block__flex'>
+        <img src="/projects/poemart.png" className='project-img' />
+        <img src="/projects/poemart1.png" className='project-img' />
+        <img src="/projects/poemartsketch.png" className='project-img' />
+      </div>
+
+      <div className='text-block__flex'>
+        <img src="/projects/threeartsketch.png" className='project-img' />
+        <img src="/projects/sketch.PNG" className='project-img' />
+        <img src="/projects/sketch2.PNG" className='project-img' />
+        <img src="/projects/handsketch.png" className='project-img' />
+      </div>
+
+      <div className='text-block__flex'>
+        <img src="/projects/sunmoontree.png" className='project-img' />
+        <img src="/projects/suntreeschedule.png" className='project-img' />
+      </div>
+
+
+    
     <div className='spacer'>
     </div> 
 
