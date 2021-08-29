@@ -31,6 +31,7 @@ function Games () {
       <div>
         <p>Projects</p>
       </div>
+      
     </div>
 
     <div className='spacer'>

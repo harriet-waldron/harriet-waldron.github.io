@@ -27,16 +27,22 @@ function Nav () {
         </p>
     </div>
 
+    <div className='spacer-small'>
+    </div>
+
     <div className='text-block__flex'>
       <div>
         <p>Projects</p>
       </div>
     </div>
 
-    <div className='spacer'>
-    </div>
-    <div className='spacer'>
+    <div className='spacer-small'>
     </div> 
+
+      <div className='text-block__flex'>
+        <img src="/projects/creaturesketch.png" className='project-img' />
+      </div>
+
     <div className='spacer'>
     </div> 
 

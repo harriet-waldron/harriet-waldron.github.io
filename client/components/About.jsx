@@ -6,7 +6,7 @@ function About () {
   return (
       <div className='text-block__flex' >
         <div className='side-block_small' >
-        {/* my images aren't working, may need api call -- returns GET 404 error */}
+        
         <img src="/images/kimchi.png" className='profile-img'/>
         </div>
         <div className='side-block_large' >

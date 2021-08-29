@@ -35,7 +35,7 @@ h1, h3 {
 }
 
 .spacer-small {
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: transparent;
 }
@@ -71,12 +71,17 @@ h1, h3 {
 }
 
 .side-block_large {
-  padding: 5%;
+  padding: 2.5%;
   width: 60%;
 }
 
 .profile-img {
   max-height: 200px;
+  width: auto;
+}
+
+.project-img {
+  max-height: 500px;
   width: auto;
 }
 
