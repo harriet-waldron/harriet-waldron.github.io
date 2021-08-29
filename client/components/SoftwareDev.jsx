@@ -18,8 +18,8 @@ function SoftwareDev () {
       <h1>Learning Journey</h1>
     </div>
 
-    <div className='spacer-small'>
-    </div>
+    {/* <div className='spacer-small'>
+    </div> */}
 
     <div className='text-block'>
         <p>
@@ -38,6 +38,9 @@ function SoftwareDev () {
 
     <div className='spacer'>
     </div>
+    <div className='spacer'>
+    </div> 
+    
 
     </div>
     </>

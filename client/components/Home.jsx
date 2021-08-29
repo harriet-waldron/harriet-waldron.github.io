@@ -17,13 +17,12 @@ function Home () {
       <div className='header'>
         <h1>Blog Under Construction</h1>
       </div> 
-      <div className='spacer'>
-      </div>  
 
       <About />
 
-      <div className='spacer'>
+      <div className='spacer-small'>
       </div> 
+      
 
       <Contact />
 
