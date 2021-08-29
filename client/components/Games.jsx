@@ -8,7 +8,7 @@ function Games () {
   return (
     <>
     <div className='background' style={{ 
-      backgroundImage: `url(${'/gameimage.png'})`
+      backgroundImage: `url(${'/images/gameimage.png'})`
       }}>
 
     <div className='spacer'>

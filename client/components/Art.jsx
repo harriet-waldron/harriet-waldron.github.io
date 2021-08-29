@@ -8,7 +8,7 @@ function Nav () {
   return (
     <>
     <div className='background' style={{ 
-      backgroundImage: `url(${'/artimage.png'})`
+      backgroundImage: `url(${'/images/artimage.png'})`
       }}>
 
     <div className='spacer'>

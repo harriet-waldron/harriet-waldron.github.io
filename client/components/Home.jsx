@@ -9,7 +9,7 @@ function Home () {
   return (
     <>
     <div className='background' style={{ 
-  backgroundImage: `url(${'/homeimage.png'})`
+  backgroundImage: `url(${'/images/homeimage.png'})`
 }}>
     <div className='spacer'>
       </div> 

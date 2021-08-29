@@ -8,7 +8,7 @@ function SoftwareDev () {
   return (
     <>
     <div className='background' style={{ 
-      backgroundImage: `url(${'/devimage.png'})`
+      backgroundImage: `url(${'/images/devimage.png'})`
       }}>
 
     <div className='spacer'>
