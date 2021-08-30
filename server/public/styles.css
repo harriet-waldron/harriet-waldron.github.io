@@ -96,11 +96,13 @@ h1, h3 {
 
 #colorButton {
   position: relative;
+  font-size: 1.5rem;
   float: right;
   min-width: 200px;
   min-height: 200px;
   background-color: palevioletred;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .background {

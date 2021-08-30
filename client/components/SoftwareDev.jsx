@@ -1,5 +1,14 @@
+{/* Links to deployed projects, 
+links to github projects with 
+screenshots ,
+pics and description of projects in progress.
+TO DO create drop down - blog, eda projects, personal projects 
+move blog links into a drop down 
+Talk about Friday projects and final project but link to game, link to art page */}
+
+
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 
 import DevBlog from './DevBlog'
 
@@ -34,7 +43,10 @@ function SoftwareDev () {
       <div>
         <p>Projects</p>
       </div>
+      <Link to='/magic-gif'>First friday project</Link> 
+      <Link to='/minesweeper'>First real JS project, minesweeper</Link>
     </div>
+
 
     <div className='spacer'>
     </div>

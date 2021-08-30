@@ -40,6 +40,15 @@ function App () {
         <Route exact path='/solve' component={BlogSolve} />
         <Route exact path='/reflections' component={BlogRefl} />
 
+        <Route path='/magic-gif' component={() => { 
+          window.location.href = 'https://magic-gif-8ball.herokuapp.com/'; 
+          return null;
+        }}/>
+        <Route path='/minesweeper' component={() => { 
+          window.location.href = 'https://harriet-waldron.github.io/minesweeper/'; 
+          return null;
+        }}/>
+
       </div>
     </>
   )

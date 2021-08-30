@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function BlogDOM () {
 
-  window.onload = function colorChange() {
+  function colorChange() {
     let change = document.getElementById('colorButton');
     
     function colorValue() {
@@ -108,7 +108,7 @@ function BlogDOM () {
           Lets go back to the button colour change example from before, I'll write it out then explain what its doing. <br></br><br></br>
           
           <img src="/images/colorchange.PNG" alt="Shows the code to create a random color change button."></img>
-          <div><button id="colorButton" onClick={colorChange()}>Click me!</button></div>
+          <div><button id="colorButton" onClick={(evt) => colorChange(evt)}>Click me!</button></div>
           
           First of all I gained access to the button by its id, and saved it to the variable change. <br></br>
           I then needed to create a function that would randomly select a color value. I did this in two parts, first I used 

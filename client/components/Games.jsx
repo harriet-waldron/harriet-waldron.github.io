@@ -1,3 +1,6 @@
+// To Do, find out how to add my unity projects 
+// Video for bean brawl, talk about learning phaser, link to art
+
 import React from 'react'
 import { Route } from 'react-router-dom'
 

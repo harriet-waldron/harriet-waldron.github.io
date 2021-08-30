@@ -1,7 +1,9 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 
-// import Header from './Header'
+// sections for comissioned art, eda project, personal projects. In drop down format with 
+// a cover image for each project
+// also add small descriptions
 
 function Nav () {
  
@@ -46,38 +48,60 @@ function Nav () {
       <div className='text-block__flex'>
         <img src="/projects/retrosketch.png" className='project-img' />
         <img src="/projects/retroshirt.png" className='project-img' />
+      </div>
+      <div className='text-block__flex'>
         <img src="/projects/retropeople.PNG" className='project-img' />
         <img src="/projects/retrosticker.PNG" className='project-img' />
+      </div>  
 
     <div className='text-block__flex'>
       <img src="/projects/startscreen.png" className='project-img' />
-      <img src="/projects/sunlevel.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
+      <img src="/projects/sunlevel.PNG" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/dragonlevel.PNG" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/eyelevel.PNG" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/endscreen.png" className='project-img' />
     </div>
 
     <div className='text-block__flex'>
       <img src="/projects/Bean2Pot.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/Bean2Ball.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/Bean2Leaf.png" className='project-img' />
     </div>
 
     <div className='text-block__flex'>
       <img src="/projects/JumpBean.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/RunBeanLeft.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
       <img src="/projects/RunBeanRight.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
+      <img src="/projects/Pot2Leaf.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
+      <img src="/projects/Leaf2Ball.png" className='project-img' />
+    </div>
+    <div className='text-block__flex'>
+      <img src="/projects/Ball2Pot.png" className='project-img' />
     </div>
 
     <div className='text-block__flex'>
-      <img src="/projects/Pot2Leaf.png" className='project-img' />
-      <img src="/projects/Leaf2Ball.png" className='project-img' />
-      <img src="/projects/Ball2Pot.png" className='project-img' />
-    </div>
-      </div>
-      <div className='text-block__flex'>
-      <img src="/projects/menufront.png" className='project-img' />
-        <img src="/projects/menuback.png" className='project-img' />
+      <img src="/projects/menufront.PNG" className='project-img' />
+      <img src="/projects/menuback.PNG" className='project-img' />
       </div>
 
       <div className='text-block__flex'>
@@ -95,6 +119,8 @@ function Nav () {
       <div className='text-block__flex'>
         <img src="/projects/threeartsketch.png" className='project-img' />
         <img src="/projects/sketch.PNG" className='project-img' />
+      </div>
+      <div className='text-block__flex'>
         <img src="/projects/sketch2.PNG" className='project-img' />
         <img src="/projects/handsketch.png" className='project-img' />
       </div>
